@@ -13,6 +13,7 @@ function getCategoriaPorAno(anoNascimento) {
     if (ano <= 2005) return "Sênior";
     return "Categoria não encontrada";
 }
+   
 function getProvas() {
     return JSON.parse(localStorage.getItem('provas')) || [];
 }
